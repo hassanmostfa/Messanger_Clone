@@ -1,0 +1,48 @@
+*{
+   text-align: center;
+   margin: 0;
+   padding: 0;
+
+}
+.form{
+   display: flex;
+   justify-content: center;
+}
+
+form{
+   padding: 20px;
+   position: fixed;
+   bottom: 0;
+   z-index: 1;
+   background-color: #e9e9eb;
+   width: 80%;
+   margin: 20px;
+   border-radius: 15px;
+}
+
+img{
+   width: 80px;
+   margin: 22px;
+}
+
+.message__input{
+   margin: 5px;
+   background: transparent;
+   outline: none;
+   border: none;
+   border-bottom: 2px solid #878181;
+   width: 80%;
+   text-align: left;
+   padding: 5px;
+   font-size: 15px;
+   flex: 1;
+}
+
+.send__btn{
+   color: #878181;
+   flex: 0;
+}
+
+h1{
+   margin-bottom: 15px;
+}
